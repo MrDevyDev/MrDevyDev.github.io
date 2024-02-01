@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+background-color: #19112a!important;
+  scroll-behavior: smooth;
+  background-position: center;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  background-color: #3b2b60;
+  border-radius: 0.1rem;
+  width: 0.7rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, rgb(247, 123, 210), transparent);
+  border-radius: 1rem;
+}
+
+* {
+  color: white;
+}
+
+a:hover::before {
+  width: 100%;
+}
+.scroll-to-top {
+  background: #8137ec !important;
+  border-radius: 0rem !important;
+}
